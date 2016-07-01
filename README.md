@@ -4,7 +4,7 @@ Just a little kitchen sink for some Ionic 2 features
 
 To run:
 
-git clone https://github.com/01abhishekjain/Ionic-2-POC
+<b>git clone https://github.com/01abhishekjain/Ionic-2-POC</b>
 
 cd into folder
 
