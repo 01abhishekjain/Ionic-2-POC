@@ -1,0 +1,18 @@
+<ion-navbar *navbar>
+    <button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>UI components</ion-title>
+</ion-navbar>
+<ion-content class="home">
+    <p padding>
+        Bunch of UI components here.
+    </p>
+    <section padding>
+        <button padding block (click)="presentActionSheet()">show action sheet</button>
+        <br>
+        <button padding block (click)="doConfirm()">show basic alert</button>
+        <br>
+        <button padding block (click)="doRadio()">show radio alert</button>
+    </section>
+</ion-content>

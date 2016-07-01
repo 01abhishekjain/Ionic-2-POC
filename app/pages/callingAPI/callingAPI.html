@@ -1,0 +1,22 @@
+<ion-navbar *navbar>
+    <button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Calling API</ion-title>
+</ion-navbar>
+<ion-content>
+    <p padding>
+        Click on the button below to call an API
+    </p>
+    <div padding>
+        <button block (click)="callAPI()" [disabled]="SendBtnDisable">Call REST Web Service</button>
+        {{loadingVar}}
+    </div>
+    <ion-list>
+        <button ion-item *ngFor="#item of data.results" (click)="openDetailPage(item)">
+            <b>{{item.name.title}} {{item.name.first}} {{item.name.last}}</b>
+            <br> {{item.cell}}
+            <br> {{item.email}}
+        </button>
+    </ion-list>
+</ion-content>
