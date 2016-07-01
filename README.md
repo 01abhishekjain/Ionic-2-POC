@@ -6,11 +6,11 @@ To run:
 
 <b>git clone https://github.com/01abhishekjain/Ionic-2-POC</b>
 
-cd into folder
+<b>cd into folder</b>
 
-npm install
+<b>npm install</b>
 
-ionic serve
+<b>ionic serve</b>
 
 
 Access an android build here:
