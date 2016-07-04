@@ -16,3 +16,9 @@ To run:
 Access an android build here:
 
 https://drive.google.com/open?id=0B4y966oAZqCUR0FtVTE0bjkwdk0
+
+
+To view as a web app:
+
+https://goo.gl/mwVXCr
+(Note: some features like camera may not work if on a web browser)
